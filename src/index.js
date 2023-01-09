@@ -7,5 +7,5 @@ const reverse = (n) => {
     
     return Number(result);
 }
-console.log(reverse(-19))
+
 module.exports = reverse;

@@ -1,5 +1,5 @@
 const reverse = (n) => {
-    const result = n
+    const result = Math.abs(n)
         .toString()
         .split('')
         .reverse()
@@ -7,5 +7,5 @@ const reverse = (n) => {
     
     return Number(result);
 }
-
+console.log(reverse(-19))
 module.exports = reverse;
